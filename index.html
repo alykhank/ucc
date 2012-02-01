@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>UCC Announcements</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="UCC_Crest.png/" rel="icon" type="image/png" />
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Entry Form</h1>
+<form id="announcement" action="index.html" method="post">
+<fieldset>
+	<legend class="legend">Information</legend>
+		<ol class="info">
+			<li>
+				<label>Title</label>
+				<input type="text" title="Title" required autofocus />
+			</li>
+			<li>
+				<label>Message</label>
+				<textarea title="Message" rows="5" cols="50" required></textarea>
+			</li>
+		</ol>
+		<ol class="dates">
+			<li>
+				<label>Dates</label>
+				<div class="datearea">
+					<button type="submit" name="StartDate" id="StartDate" title="Start Date">Start Date</button>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" name="EndDate" id="EndDate" title="End Date">End Date</button>
+				</div>
+			</li>
+		</ol>
+		<ol class="submission">
+			<li>
+				<label>Submission</label>
+				<div class="submitarea">
+					<button type="submit" name="Submit" id="submission" title="Submit" action="" method="post">Submit</button>
+				</div>
+			</li>
+		</ol>
+</fieldset>
+</form>
+<div id="author">Design by the Media Associaton</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16116282-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+
+</html>
