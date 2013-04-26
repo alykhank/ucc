@@ -164,8 +164,10 @@ form#announcement textarea {
 }
 
 button {
-	font-size: 18px;
-	border: none;
+	font-size: 17px;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: 2px;
 }
 
 button:hover {
